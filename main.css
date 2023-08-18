@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: black;
+    color: yellowgreen;
+}
+
+header,
+section {
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 22px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brands-list img {
+    height: 160px;
+}
+.brands-list li {
+    display: inline;
+    margin-right: 50px;
+}
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: yellowgreen;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between
+}
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea {
+    resize: none;
+    height: 180px;
+}
+form button {
+    background-color: black;
+    color: yellowgreen;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: whitesmoke;
+}
+input:focus, textarea:focus {
+    outline-color: yellowgreen;
+}
+.social-links img {
+    height: 24px;
+    margin-top: 15px;
+}
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+.social-links li a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    color: yellowgreen;
+    padding: 16px 0;
+}
